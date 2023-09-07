@@ -1,0 +1,35 @@
+body {
+    margin-top: 50px;
+}
+
+.jumbotron img {
+    width: 25%;
+}
+
+section {
+    min-height: 420px;
+}
+
+footer {
+    min-height: 50px;
+    padding-top:12px;
+}
+
+.wipper{
+    border-right: 1px solid white;
+    padding: 5px;
+    animation: animasi 5s steps(30, end) infinite;
+    overflow: hidden;
+}
+
+ @keyframes animasi {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 150px;
+    }
+    100%{
+        width: 0px;
+    }
+ }
